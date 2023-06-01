@@ -1,0 +1,40 @@
+         a{
+            -webkit-user-select: none;
+            color: #000;
+        }
+        .page li{
+            list-style-type :none;
+            float: left;
+            width: 44px;
+            height: 25px;
+            background: #fff;
+            text-align: center;
+            line-height: 25px;
+            margin-right: 5px;
+            border-radius: 15px;
+            transition: 0.2s;
+            font-size:5px;
+        }
+        .page li:hover{
+            background: #1E90FF;
+            color:#fff;
+        }
+        .page span{
+            list-style-type :none;
+            float: left;
+            width: 45px;
+            height: 23px;
+            background: #1E90FF;
+            color:#fff;
+            text-align: center;
+            line-height: 23px;
+            margin-top: 1px;
+            margin-right: 5px;
+            border-radius: 15px;
+            transition: 0.2s;
+            font-size:5px;
+        }
+        .page span:hover{
+            background: #fff;
+            color:#000;
+        }
